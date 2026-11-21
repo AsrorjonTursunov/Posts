@@ -1,6 +1,6 @@
 import React from "react";
 //image
-import Logo from "../assets/images/Logo.svg";
+import logo from "../assets/images/logo.svg";
 import { Link } from "react-router-dom";
 // icons
 import { FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
