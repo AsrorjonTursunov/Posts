@@ -46,16 +46,16 @@ const routes = createBrowserRouter([
     ],
   },
   {
-    path:"/admin",
-    element:<AdminLayout/>,
-    children=[
+    path: "/admin",
+    element: <AdminLayout />,
+    children: [
       {
         index: true,
-        element: <DashboardPage/>
+        element: <CreatePosts />,
       },
       {
-        path: "/createpost",
-        element: <CreatePost/>
+        index: "/dashboard",
+        element: <DashboardPage />,
       },
     ],
   },
