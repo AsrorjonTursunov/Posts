@@ -9,7 +9,7 @@ function Footer() {
     <div className="w-full max-w-300 mx-auto px-10">
       <div className="flex mb-8">
         <div className="w-148">
-          <img src={Logo} alt="logo" />
+          <img src={logo} alt="logo" />
           <p className="w-96 mt-4">
             Create, read, and inspire. Discover amazing stories written by
             talented creators from around the world.
