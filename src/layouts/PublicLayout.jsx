@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import HomeSection from "../components/HomeSection";
+import { Outlet } from "react-router-dom";
 
 function PublicLayout() {
   return (
@@ -9,9 +9,11 @@ function PublicLayout() {
       <header>
         <Navbar />
       </header>
+
       <main>
-        <HomeSection />{" "}
+        <Outlet />
       </main>
+
       <footer>
         <Footer />
       </footer>
